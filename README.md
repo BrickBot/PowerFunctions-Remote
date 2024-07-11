@@ -25,32 +25,42 @@ Instructions
     
      
 2. Download firmware:
-   - use the following command in the DOS command shell
-     `firmdl3 brickOS.srec`
-   - if you have a USB tower use this command
-     `firmdl3 --tty=usb brickOS.srec`
+   - Use the following command in the DOS command shell
+     ```Shell
+     firmdl3 brickOS.srec
+     ```
+   - If you have a USB tower use this command
+     ```Shell
+     firmdl3 --tty=usb brickOS.srec
+     ```
    - OR you can use BricxCC to download the brickOS.srec firmware
      (Bob: I could not get firmdl3 to work so i used BricxCC.)
  
      
 3. Download the example program
-   - use the following command in the DOS command shell
-     `dll pf.lx`
-   - if you have a USB tower use this command
-     `dll -tusb pf.lx`
+   - Use the following command in the DOS command shell
+     ```Shell
+     dll pf.lx
+     ```
+   - If you have a USB tower use this command
+     ```Shell
+     dll -tusb pf.lx
+     ```
   
      
 4. Connect a rotation sensor to sensor port 1 and sensor port 3
 
 
 5. Press run on the RCX the point at a PF receiver
-   - turn rotation sensor 1 to control the red port on the PF
-   - turn rotation sensor 3 to control the blue port on the PF
-   - press view/prgm buttons to switch PF channels
+   - Turn rotation sensor 1 to control the red port on the PF
+   - Turn rotation sensor 3 to control the blue port on the PF
+   - Press view/prgm buttons to switch PF channels
 
 
 Credits
 -------
 Bob Kojima bob@fial.com
+
 https://www.bong69.com/site/pages/software.php
+
 01-20-2008
